@@ -801,7 +801,7 @@ async function runDailyActivity() {
 
 const screen = blessed.screen({
   smartCSR: true,
-  title: "EKOX TESTNET AUTO BOT",
+  title: "EKOX S2 TESTNET AUTO BOT",
   autoPadding: true,
   fullUnicode: true,
   mouse: true,
@@ -1528,5 +1528,6 @@ setTimeout(() => {
   adjustLayout();
   screen.on("resize", adjustLayout);
 }, 100);
+
 
 initialize();
